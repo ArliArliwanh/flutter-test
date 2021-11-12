@@ -5,7 +5,7 @@ pipeline {
              stage('build') {
                        steps {
                              sh 'sudo snap install flutter --classic'
-                             sh 'flutter pub add test_coverage'
+                             //sh 'flutter pub add test_coverage'
                              }                               
                             }
 
